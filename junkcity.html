@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Cubeolas Trials</title>
+    <style>
+        ::selection {
+            background: #3390ff;
+            color: white;
+        }
+    </style>
+</head>
+
+<body style="background-color: black; color: white; font-family: Arial;">
+
+    <h1 style="text-align: center; font-size: 60px; margin-top: 60px;">
+        Cubeolas Trials
+    </h1>
+
+    <p style="text-align: center; font-size: 20px; max-width: 700px; margin: 0 auto;">
+        Nobody has ever made it this far into the Trials before. Hundreds of challengers have stepped in, but no one has ever reached this point.
+        <br><br>
+        But you my friend, you are different. Somehow, you’ve pushed through every challenge and every test
+        designed to stop you. You're the only person who has ever come this far, the closest anyone
+        has ever gotten to reaching the end of the Cubeolas Trials.
+        <br><br>
+    </p>
+
+    <p style="margin-top: 1000px; text-align: center; font-size: 25px;">
+        This is your final test, puzzle skills.
+    </p>
+
+    <script>
+        const secretLink = document.createElement('a');
+        secretLink.href = 'secret.html';
+        secretLink.textContent = 'HiddenButton';
+        secretLink.style.color = 'black';
+        secretLink.style.backgroundColor = 'black';
+        secretLink.style.position = 'absolute';
+        secretLink.style.top = '2000px';
+        secretLink.style.left = '2000px';
+        secretLink.style.textDecoration = 'none';
+        document.body.appendChild(secretLink);
+    </script>
+
+</body>
+</html>
